@@ -26,7 +26,7 @@ class NoteTile extends StatelessWidget {
                 context: context, 
                 bodyBuilder: (context) => NoteSettings(onEditTap: onEditPressed, onDeleteTap: onDeletePressed)
               ), 
-              icon: const Icon(Icons.more_vert))
+              icon: Icon(Icons.more_vert,color: Theme.of(context).colorScheme.inversePrimary,))
         )
         /* Row(
           mainAxisSize: MainAxisSize.min,
